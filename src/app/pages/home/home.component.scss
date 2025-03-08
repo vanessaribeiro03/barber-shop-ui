@@ -1,0 +1,111 @@
+// /* home.component.scss */
+// .home-container {
+//     background-color: #6A4E23; /* Cor marrom */
+//     height: 100vh; /* Para preencher a tela inteira */
+//     display: flex;
+//     justify-content: center; /* Centraliza horizontalmente */
+//     align-items: center; /* Centraliza verticalmente */
+//     text-align: center;
+//     color: white; /* Cor do texto (branco) */
+//     font-family: Arial, sans-serif; /* Fonte do título */
+//   }
+  
+//   h1 {
+//     font-size: 2.5rem;
+//     font-weight: bold;
+//     margin: 0;
+//   }
+  
+
+// .home-container {
+//     background-color:#6A4E23; /* A cor de fundo em React era indigo-900 */
+//     display: flex;
+//     justify-content: center;
+//     padding: 20px;
+//   }
+  
+//   .content-wrapper {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr;
+//     gap: 20px;
+//     max-width: 1200px;
+//     width: 100%;
+//   }
+  
+//   .left-content {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     gap: 16px;
+//     color: white;
+//     text-align: center;
+//   }
+  
+//   .welcome-text {
+//     font-size: 2.5rem; /* Corresponde ao text-5xl em React */
+//     font-weight: bold;
+//   }
+  
+//   .intro-text {
+//     font-size: 1.25rem; /* Corresponde ao text-xl em React */
+//   }
+  
+//   .right-content {
+//     display: flex;
+//     justify-content: center;
+//   }
+  
+//   .home-image {
+//     max-width: 75%; /* Controla o tamanho da imagem */
+//   }
+  
+/* Define o fundo marrom para a página toda */
+html, body {
+    height: 100%; /* A página precisa ocupar 100% da altura */
+    margin: 0;    /* Remove as margens padrão do navegador */
+  }
+  
+  .home-container {
+    background-color: #4f3011 ; /* A cor de fundo marrom */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Alinha verticalmente o conteúdo no meio da tela */
+    height: 100vh; /* Usa 100% da altura da tela */
+    padding: 20px;
+  }
+  
+  .content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    color: white;
+    text-align: center;
+  }
+  
+  .welcome-text {
+    font-size: 2.5rem; /* Corresponde ao text-5xl em React */
+    font-weight: bold;
+  }
+  
+  .intro-text {
+    font-size: 1.25rem; /* Corresponde ao text-xl em React */
+  }
+  
+  .right-content {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .home-image {
+    max-width: 75%; /* Controla o tamanho da imagem */
+  }
+  
