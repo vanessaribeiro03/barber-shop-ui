@@ -1,5 +1,16 @@
+<!-- <app-navbar></app-navbar>
+
 <app-card-header>{{title}}</app-card-header>
 
 <app-menu-bar></app-menu-bar>
 
-<router-outlet />
+<router-outlet /> -->
+
+<app-navbar></app-navbar>
+
+<!-- Exibe o título somente quando houver um título definido -->
+<app-card-header *ngIf="title">{{title}}</app-card-header>
+
+<app-menu-bar></app-menu-bar>
+
+<router-outlet></router-outlet>
